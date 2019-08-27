@@ -1,0 +1,14 @@
+{
+	"config": {
+		"vendor-dir": "deploy/vendor"
+	},
+	"require": {
+		"illuminate/database": "*",
+		"vlucas/phpdotenv": "*"
+	},
+	"autoload": {
+		"classmap": [
+			"deploy/app/models"
+		]
+	}
+}
